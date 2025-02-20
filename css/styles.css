@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+/*Fontes*/
+.contrail-one-regular {
+  font-family: "Contrail One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-condensed-medium {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-condensed-regular {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter-regular {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.homeImage {
+  background-size: cover;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.active {
+  color: #fff;
+}
+
+.frase {
+  background-image: linear-gradient(to right, #07033F, #3A0552);
+  padding: 2%;
+}
+
+.conteudo {
+  background-image: linear-gradient(#000000, #08045B);
+  padding: 150px;
+}
+
+.btn-purple {
+  background-color: #69218A;
+  color: #fff;
+}
+
+.btn-purple:hover {
+  color: #69218A;
+  background-color: #fff;
+}
+
+.title {
+  margin-top: 100px;
+  color: #fff;
+  text-align: center;
+  font-size: 128px;
+}
+
+.subtitle {
+  margin-top: 50px;
+  color: #fff;
+  text-align: center;
+  font-size: 48px;
+}
+
+.description {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+}
+
+.sobre {
+  font-size: 64px;
+  color: white;
+}
+
+.sobre-texto {
+  line-height: 50px;
+  color: white;
+}
+
+.rodape {
+  background-color: #01001D;
+  list-style-type: none;
+}
+
+.rodape-title {
+  font-size: 24px;
+}
+
+/*# sourceMappingURL=styles.css.map */
