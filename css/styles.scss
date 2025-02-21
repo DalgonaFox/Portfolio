@@ -13,6 +13,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    z-index: 1;
 }
 
 /*Fontes*/
@@ -55,6 +56,7 @@ body {
     background: rgba(0, 0, 0, 0.582);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
+    z-index: 2;
 }
 
 .nav-link {
@@ -141,9 +143,13 @@ body {
 .rodape {
     background-color: #01001D;
     list-style-type: none;
+    color: white;
 
     h1 {
       font-size: 24px;  
+    }
+    p {
+        font-size: 16px;
     }
 }
 
@@ -178,6 +184,7 @@ body {
 
   .card {
     background-image: linear-gradient(#08045B , #3A0552);
+    flex: 1;
 
     h5 {
         color: #fff;
@@ -185,28 +192,32 @@ body {
     
   }
 
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
 .filtro {
     position: relative;
-    display: inline-block;
-    object-fit: contain;
+    height: 50%;
+    overflow: hidden;
 
     img {
         width: 100%;
-        display: block;
-        object-fit: contain;
+        height: 100%;
+        object-fit: fill;
     }
 
     &::before {
-        content: ""; 
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(to top, rgba(132, 0, 194, 0.2), rgba(0, 29, 109, 0.2)); // Degradê do preto ao transparente
-        pointer-events: none;
+        content: "";
+        background: linear-gradient(to top, rgba(132, 0, 194, 0.3), rgba(0, 29, 109, 0.3));
+        pointer-events: none; /* Para não interferir na imagem */
     }
 }
+
+
+
 
 .botao {
     color: #fff;
@@ -219,4 +230,20 @@ body {
 .botao:hover {
         background-color: #08045B;
         color: #fff;
+}
+
+.contatodir {
+    width: 65%;
+    color: white;
+    text-align: start;
+
+    h2 {
+        font-size: 32px;
+    }
+}
+
+.contatoesq {
+    width: 35%;
+    color: white;
+    text-align: start;
 }
