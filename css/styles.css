@@ -165,9 +165,6 @@ body {
   width: max-content;
   animation: slide 30s linear infinite;
 }
-.carrossel .wrapper:hover {
-  animation-play-state: paused;
-}
 .carrossel .wrapper img {
   max-width: 200px;
 }

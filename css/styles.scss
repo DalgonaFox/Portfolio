@@ -176,10 +176,6 @@ body {
         width: max-content;
         animation: slide 30s linear infinite;
 
-        &:hover {
-            animation-play-state: paused;
-        }
-
         img {
             max-width: 200px;
         }
