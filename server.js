@@ -57,3 +57,25 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+var express = require('express');
+var session = require('express-session');
+var app = express();
+const bodyParser = require('body-parser');
+const path = require('path');
+const nodemailer = require("nodemailer");
+
+app.use(express.static(__dirname + '/public'));
+
+//app.set('view engine', 'ejs');
+//app.set('views', path.join(__dirname, 'views'));
+
+app.use(bodyParser.urlencoded({ extended: true }));
+
+app.get("/", (req, res) => {
+    res.render("index");
+});
+
+app.get("/English", (req, res) => {
+    res.render("english");
+});
