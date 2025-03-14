@@ -47,7 +47,7 @@ body {
 .homeImage {
     background-size: cover;
     background-image: url(../images/background.png);
-    height: 1009px;
+    min-height: 1009px;
     width: auto;
 }
 
@@ -79,7 +79,6 @@ body {
 
 .conteudo {
     background-image: linear-gradient(#000000 , #08045B);
-    padding: 150px;
     width: 100%;
 
     h1 {
@@ -94,6 +93,7 @@ body {
 }
 
 .sobre {
+    padding: 120px;
     p {
         line-height: 50px;
     }
@@ -207,8 +207,7 @@ body {
     background-image: linear-gradient(#08045B , #3A0552);
     display: flex;
     flex-direction: column;
-    height: 40rem;
-    flex: 1;
+    height: 35rem;
 
     h5 {
         color: #fff;
@@ -324,4 +323,231 @@ body {
 
 .nav-link:hover {
     color: #69218A;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.reta {
+    height: 500px;  
+}
+
+@media (max-width: 900px) {
+    .title {
+
+        h1 {
+            margin-top: 150px;
+            font-size: 70px;
+        }
+        h2 {
+            font-size: 35px;
+        }
+        h3 {
+            font-size: 20px;
+        }
+    }
+    .description {
+        font-size: 14px;
+    }
+    .icons {
+        width: 20%;
+    }
+    .frase {
+        padding-top: 30px;
+        p {
+            font-size: 18px;
+        }
+    }
+    .sobre {
+        padding: 70px;
+    }
+    .conteudo {
+    
+        h1 {
+            font-size: 40px;
+            color: white;
+            margin-bottom: 100px;
+        }
+    
+        p {
+            color: white;
+            font-size: 14px;
+        }
+    }
+    .carrossel {
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 150px;
+        
+        .wrapper {
+            display: flex;
+            gap: 100px;
+            width: max-content;
+            animation: slide 30s linear infinite;
+    
+            img {
+                max-width: 150px;
+            }
+        }
+    }
+    .linha {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .card {
+            margin-right: 0px !important;
+            height: 30rem;
+            margin-right: 60px !important;
+            margin-left: 60px !important;
+            margin-bottom: 20px !important;
+        }
+    }
+    .contatodir {
+        label {
+            font-size: 16px;
+        }
+    
+        h2 {
+            font-size: 25px;
+        }
+    }
+
+    .card-container {
+        min-width: 100%;
+    }
+    
+    .card-wrapper {
+        width: 50%;
+        overflow: hidden;
+    }
+    
+    .card-track {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    .prev {
+        left: 10px;
+    }
+    .next {
+        right: 10px;
+    }
+    
+    .carousel-btn {
+        color: white;
+        background-color: transparent;
+        border: none;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .desce {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .reta {
+        height: 0.5px;
+        width: 100%;
+        border: 1px;
+        color: white;
+        background-color: white;
+    }
+    .contatodir {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .contatoesq {
+        width: 100%;
+        text-align: center;
+    }
+    .form-group {
+        text-align: start;
+    }
+
+    .title {
+
+        h1 {
+            margin-top: 150px;
+            font-size: 50px;
+        }
+        h2 {
+            font-size: 27px;
+        }
+        h3 {
+            font-size: 18px;
+        }
+    }
+    .description {
+        font-size: 13px;
+        width: 100%;
+    }
+    .description-container {
+        width: 70% !important;
+    }
+    .icons {
+        width: 20%;
+    }
+    .frase {
+        p {
+            font-size: 16px;
+        }
+    }
+    .sobre {
+        padding: 70px;
+    }
+    .conteudo {
+    
+        h1 {
+            font-size: 35px;
+            margin-bottom: 30px;
+        }
+    
+        p {
+            font-size: 13px;
+        }
+    }
+    .mb-5 {
+        margin-bottom: 30px !important;
+    }
+    .mt-5 {
+        margin-bottom: 30px !important;
+    }
+    .icons {
+        width: 30%;
+    }
+    
+}
+
+@media (max-width: 590px) {
+    .card-wrapper {
+        width: 45%;
+        overflow: hidden;
+    }
+    .linha {
+        .card {
+            margin-right: 40px !important;
+            margin-left: 40px !important;
+        }
+    }
+}
+
+@media (max-width: 540px) {
+    .card-wrapper {
+        width: 40%;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-wrapper {
+        width: 35%;
+        overflow: hidden;
+    }
 }

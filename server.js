@@ -1,10 +1,11 @@
 require("dotenv").config();
 var express = require('express');
-const bodyParser = require('body-parser');
 const path = require('path');
 const nodemailer = require("nodemailer");
 const cors = require("cors"); 
+
 console.log("EMAIL_HOST:", process.env.EMAIL_HOST);
+console.log("EMAIL_PORT:", process.env.EMAIL_PORT);
 console.log("EMAIL_USER:", process.env.EMAIL_USER);
 console.log("EMAIL_PASS:", process.env.EMAIL_PASS ? "OK" : "NÃO DEFINIDO");
 
@@ -13,19 +14,16 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(cors());
 
-
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
-app.use(bodyParser.urlencoded({ extended: true }));
-
 app.get("/", (req, res) => {
-    res.render("index", {sendMessage: null});
+    res.render("index");
 });
 
-app.get("/English", (req, res) => {
+app.get("/english", (req, res) => {
     res.render("english");
 });
 
@@ -37,25 +35,30 @@ const transporter = nodemailer.createTransport({
         user: process.env.EMAIL_USER,
         pass: process.env.EMAIL_PASS
     }
-  });
+});
 
-  app.post("/send-email", async (req, res) => {
+app.post("/send-email", async (req, res) => {
     const { name, email, subject, message } = req.body;
 
     const mailOptions = {
         from: `"${name}" <${process.env.EMAIL_USER}>`,
         replyTo: email,
         to: process.env.EMAIL_DEST,
-        subject: `${subject}`,
-        text: `E-mail do Remetente: ${email}\n ${message}`
+        subject: subject,
+        text: `E-mail do Remetente: ${email}\n${message}`
     };
 
-    if (error){
-        console.error("Erro ao enviar e-mail:", error);
-    } else  {
+    const result = await transporter.sendMail(mailOptions).catch(err => err);
+
+    try {
+        await transporter.sendMail(mailOptions);
         console.log("Mensagem enviada com sucesso!");
-        return res.render('index', {sendMessage: 'E-mail enviado com sucesso!' });
+        res.json({ success: true, message: "E-mail enviado com sucesso!", title: "Sucesso!" });
+    } catch (error) {
+        console.error("Erro ao enviar e-mail:", error);
+        res.json({ success: false, message: "Erro ao enviar e-mail. Tente novamente.", title: "Erro!" });
     }
 });
+
 
 app.listen(3000, () => console.log("Servidor rodando na porta 3000"));

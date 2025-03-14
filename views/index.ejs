@@ -33,6 +33,25 @@
 <body>
     <div class="container-fluid">
 
+
+        <div class="modal fade" id="contatoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title contrail-one-regular" id="modalTitle">
+
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body inter-regular" id="modalMessage">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
         <div class="d-flex flex-column homeImage align-items-center">
 
             <div class="d-flex flex-column w-100 justify-content-center">
@@ -40,11 +59,13 @@
                 <header>
                     <nav class="navbar navbar-expand-lg bg-transparent contrail-one-regular h4 w-100">
                         <div class="container-fluid p-3">
+
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                 aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
+
                             <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
                                 <div class="d-flex col-8" data-aos="fade-right" data-aos-duration="1000">
                                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -68,8 +89,9 @@
                                 <div class="d-flex col-2">
                                     <div class="d-flex justify-content-end align-items-center w-50">
                                     </div>
-                                    <div class="d-flex justify-content-center align-items-center w-50" data-aos="fade-left" data-aos-duration="1000">
-                                        <a href="/english.html"><button type="button" class="btn btn-purple">Swap to
+                                    <div class="d-flex justify-content-center align-items-center w-50"
+                                        data-aos="fade-left" data-aos-duration="1000">
+                                        <a href="/english"><button type="button" class="btn btn-purple">Swap to
                                                 English</button></a>
                                     </div>
                                 </div>
@@ -79,30 +101,38 @@
                 </header>
 
 
-                <div class="d-flex align-items-center justify-content-center flex-column">
+                <div class="d-flex align-items-center justify-content-center flex-column ajustar">
                     <div class="title">
-                        <h1 class="contrail-one-regular" data-aos="fade-up" data-aos-duration="2000" >Milena Oliveira Santos</h1>
-                        <h2 class="contrail-one-regular" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">Técnico em Desenvolvimento de Sistemas</h2>
-                        <h3 class="contrail-one-regular" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">Cursando Análise e Desenvolvimento de Sistemas</h3>
-                    </div>
-                    
-                    <div class="d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
-                      <div class="d-flex flex-column align-items-center justify-content-center w-50" >
-                        <p class="description contrail-one-regular">Iniciei minha jornada no desenvolvimento de sistemas há dois anos. No começo, não era exatamente o que eu queria, mas ao longo do tempo, descobri minha paixão pela área. Agora, seguindo para a graduação após o técnico, estou em busca do meu primeiro estágio para ganhar experiência e aprimorar minhas habilidades.</p>
+                        <h1 class="contrail-one-regular" data-aos="fade-up" data-aos-duration="2000">Milena Oliveira
+                            Santos</h1>
+                        <h2 class="contrail-one-regular" data-aos="fade-up" data-aos-duration="1000"
+                            data-aos-delay="500">Técnico em Desenvolvimento de Sistemas</h2>
+                        <h3 class="contrail-one-regular" data-aos="fade-up" data-aos-duration="1000"
+                            data-aos-delay="700">Cursando Análise e Desenvolvimento de Sistemas</h3>
                     </div>
 
-                    <div class="d-flex icons h1">
-                        <a href="https://www.linkedin.com/in/milena-oliveira-santos-432611278/" target="_blank"
-                            title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    <div class="d-flex flex-column justify-content-center align-items-center" data-aos="fade-up"
+                        data-aos-duration="1000" data-aos-delay="900">
+                        <div class="d-flex flex-column align-items-center justify-content-center w-50 description-container">
+                            <p class="description inter-regular">Iniciei minha jornada no desenvolvimento de sistemas há
+                                dois anos. No começo, não era exatamente o que eu queria, mas ao longo do tempo,
+                                descobri minha paixão pela área. Agora, seguindo para a graduação após o técnico, estou
+                                em busca do meu primeiro estágio para ganhar experiência e aprimorar minhas habilidades.
+                            </p>
+                        </div>
 
-                        <a href="https://github.com/DalgonaFox" target="_blank" title="Github"><i
-                                class="bi bi-github"></i></a>
+                        <div class="d-flex icons h1">
+                            <a href="https://www.linkedin.com/in/milena-oliveira-santos-432611278/" target="_blank"
+                                title="LinkedIn"><i class="bi bi-linkedin"></i></a>
 
-                        <a href="./doc/Banca.pdf" target="_blank" title="Currículo"><i
-                                class="bi bi-file-earmark-pdf-fill"></i></a>
-                    </div>  
+                            <a href="https://github.com/DalgonaFox" target="_blank" title="Github"><i
+                                    class="bi bi-github"></i></a>
+
+                            <a href="./doc/Banca.pdf" target="_blank" title="Currículo"><i
+                                    class="bi bi-file-earmark-pdf-fill"></i></a>
+                        </div>
                     </div>
-                    
+
 
                 </div>
 
@@ -110,25 +140,28 @@
         </div>
 
         <div class="frase">
-            <p class="text-light contrail-one-regular text-center quote" data-aos="fade-right" data-aos-duration="1000">“Um pau para toda a obra não é um mestre de
+            <p class="text-light contrail-one-regular text-center quote" data-aos="fade-right" data-aos-duration="1000">
+                “Um pau para toda a obra não é um mestre de
                 nada, mas muitas vezes melhor do que um mestre de uma só.”</p>
-            <p class="text-light contrail-one-regular text-center quote" data-aos="fade-right" data-aos-duration="1000">—William Shakespeare</p>
+            <p class="text-light contrail-one-regular text-center quote" data-aos="fade-right" data-aos-duration="1000">
+                —William Shakespeare</p>
         </div>
 
         <div id="sobre" class="d-flex flex-column align-items-center justify-content-center text-center conteudo">
             <div class="sobre">
                 <h1 class="contrail-one-regular" data-aos="fade-up" data-aos-duration="1000">Sobre</h1>
-                <p class="contrail-one-regular mt-5 mb-5" data-aos="fade-up" data-aos-duration="1000">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Repudiandae, sapiente, animi praesentium laudantium obcaecati numquam maxime laborum, nulla
-                    doloribus ea quidem explicabo deleniti blanditiis sit provident. Commodi beatae temporibus
-                    quibusdam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam nesciunt soluta delectus
-                    dicta, labore facere, eos nisi quidem maxime iure fugiat vitae deleniti temporibus, veritatis
-                    possimus dolorem nulla nostrum qui! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Perferendis aspernatur nostrum minima debitis consectetur numquam cum. Suscipit, esse commodi, eius
-                    at ipsam nihil, doloribus delectus placeat ipsa minima earum molestiae. Lorem, ipsum dolor sit amet
-                    consectetur adipisicing elit. Soluta, enim numquam atque quis vero officiis! Eaque dolorum
-                    reprehenderit repellendus, maxime fuga nesciunt consequuntur temporibus labore et ea eius quis
-                    earum!</p>
+                <p class="inter-regular mt-5 mb-5" data-aos="fade-up" data-aos-duration="1000">Caí de paraquedas no
+                    desenvolvimento e me apaixonei pela área! Meu objetivo é me tornar uma desenvolvedora Full Stack, e
+                    sei que ainda tenho um longo caminho pela frente. Por isso, estou sempre buscando aprender coisas
+                    novas e aprimorar minhas habilidades por meio de projetos, sejam eles pequenos ou grandes.
+                    <br> Tenho mais familiaridade com Front-End, onde crio protótipos no Figma e desenvolvo interfaces
+                    com HTML, CSS e JavaScript, utilizando frameworks como Bootstrap e Sass para otimizar a estilização.
+                    No Back-End, trabalho com Express e Node.js, integrando bancos de dados MySQL. Também já desenvolvi
+                    aplicações móveis com React Native e atualmente estou expandindo meus conhecimentos em Python, Java
+                    e C.
+                    <br> Além disso, após concluir o técnico, sigo me aperfeiçoando com cursos no SENAI, sempre em busca
+                    de crescimento na área!
+                </p>
             </div>
 
             <div class="carrossel mt-5" data-aos="fade-up" data-aos-duration="1000">
@@ -178,7 +211,7 @@
             <div class="mt-5 mb-5">
                 <h1 class="contrail-one-regular" data-aos="fade-up" data-aos-duration="1000">Formação Acadêmica</h1>
                 <div class="">
-                    <div class="d-flex mb-5" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="d-flex m-4 linha" data-aos="fade-up" data-aos-duration="1000">
 
                         <div class="card mr-5">
                             <div class="filtro">
@@ -188,7 +221,9 @@
                                 <h5 class="card-title">Ensino Médio</h5>
                                 <p class="card-text">SESI Betty Vaidergorn Feffer</p>
                                 <p class="card-text">Jan 2022 - Dez 2024</p>
-                                <p class="card-text">Desenvolvimento de habilidades socioemocionais, trabalho em equipe, proatividade, autodidatismo e assiduidade, por meio de trabalhos e atividades pertinentes à base comum curricular.</p>
+                                <p class="card-text">Desenvolvimento de habilidades socioemocionais, trabalho em equipe,
+                                    proatividade, autodidatismo e assiduidade, por meio de trabalhos e atividades
+                                    pertinentes à base comum curricular.</p>
                                 <a href="doc/ensinomedio.jpeg" target="_blank"
                                     class="btn btn-md btn-card botao">Certificado de
                                     Conclusão</a>
@@ -203,7 +238,9 @@
                                 <h5 class="card-title">Técnico em Desenvolvimento de Sistemas</h5>
                                 <p class="card-text">SENAI Luís Eulalio de Bueno Vidigal Filho</p>
                                 <p class="card-text">Jan 2023 - Dez 2024</p>
-                                <p class="card-text">Desenvolvimento de habilidades em programação, banco de dados, e outras áreas relevantes para o desenvolvimento de sistemas, consolidando uma base sólida de competências técnicas.</p>
+                                <p class="card-text">Desenvolvimento de habilidades em programação, banco de dados, e
+                                    outras áreas relevantes para o desenvolvimento de sistemas, consolidando uma base
+                                    sólida de competências técnicas.</p>
                                 <a href="doc/declaracaotecnico.jpg" target="_blank"
                                     class="btn btn-md btn-card botao">Declaração de
                                     Conclusão</a>
@@ -219,7 +256,9 @@
                                 <h5 class="card-title">Tecnologia em Análise e Desenvolvimento de Sistemas</h5>
                                 <p class="card-text">Instituto Federal Câmpus Guarulhos</p>
                                 <p class="card-text">Jan 2025 - Jul 2027</p>
-                                <p class="card-text">Aprofundamento teórico em competências pertinentes ao desenvolvimento de sistemas, como arquitetura, programação de softwares e aplicações web como soluções para a indústria de TI.</p>
+                                <p class="card-text">Aprofundamento teórico em competências pertinentes ao
+                                    desenvolvimento de sistemas, como arquitetura, programação de softwares e aplicações
+                                    web como soluções para a indústria de TI.</p>
                                 <a href="#" class="btn btn-md btn-card botao">Cursando...</a>
                             </div>
                         </div>
@@ -230,383 +269,354 @@
             </div>
 
             <div class="mt-5 mb-5">
-                <h1 class="contrail-one-regular" data-aos="fade-up" data-aos-duration="1000">Cursos de Aperfeiçoamento</h1>
-                    <div class="d-flex mb-5" data-aos="fade-up" data-aos-duration="1000">
-                        <div class="card-carousel">
-                            <button class="prev carousel-btn"><i class="bi bi-chevron-left"></i></button>
-                            <div class="card-wrapper">
-                                <div class="card-track">
+                <h1 class="contrail-one-regular" data-aos="fade-up" data-aos-duration="1000">Cursos de Aperfeiçoamento
+                </h1>
+                <div class="d-flex mb-5" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="card-carousel">
+                        <button class="prev carousel-btn"><i class="bi bi-chevron-left"></i></button>
+                        <div class="card-wrapper">
+                            <div class="card-track">
 
-                                    <div class="card-container">
-                                        <div class="card">
-                                            <div class="filtro">
-                                                <img src="/images/powerbi.jpg" alt="...">
-                                            </div>
-                                            <div class="card-body text-center">
-                                                <h5 class="card-title">Power BI</h5>
-                                                <p class="card-text">SENAI Luís Eulalio de Bueno Vidigal Filho</p>
-                                                <p class="card-text">20 horas - Básico</p>
-                                                <p class="card-text">Curso onde aprendi a transformar bancos de dados de planilhas enormes no Excel em Dashboards interativos, bonitos e inovadores, trazendo insights valiosos.</p>
-                                                <a href="doc/powerbi.jpg" target="_blank"
-                                                    class="btn btn-md btn-card botao">Certificado</a>
-                                            </div>
+                                <div class="card-container">
+                                    <div class="card">
+                                        <div class="filtro">
+                                            <img src="/images/powerbi.jpg" alt="...">
+                                        </div>
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Power BI</h5>
+                                            <p class="card-text">SENAI Luís Eulalio de Bueno Vidigal Filho</p>
+                                            <p class="card-text">20 horas - Básico</p>
+                                            <p class="card-text">Curso onde aprendi a transformar bancos de dados de
+                                                planilhas enormes no Excel em Dashboards interativos, bonitos e
+                                                inovadores, trazendo insights valiosos.</p>
+                                            <a href="doc/powerbi.jpg" target="_blank"
+                                                class="btn btn-md btn-card botao">Certificado</a>
                                         </div>
                                     </div>
-
-                                    <div class="card-container">
-                                        <div class="card">
-                                            <div class="filtro">
-                                                <img src="/images/aws.jpg" alt="...">
-                                            </div>
-                                            <div class="card-body text-center">
-                                                <h5 class="card-title">AWS Cloud Foundations</h5>
-                                                <p class="card-text">SENAI Luís Eulalio de Bueno Vidigal Filho</p>
-                                                <p class="card-text">40 horas - Fundamentos</p>
-                                                <p class="card-text">Aprendi a gerenciar a plataforma AWS Cloud, criando e editando novas instâncias, e gerenciando permissões de usuários nos diversos serviços ofertados, principalmente o EC2(Servidores e Computação) e o S3(Armazenamento).</p>
-                                                <a href="doc/aws.jpg" target="_blank"
-                                                    class="btn btn-md btn-card botao">Certificado</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="card-container">
-                                        <div class="card">
-                                            <div class="filtro">
-                                                <img src="/images/azure.jpg" alt="...">
-                                            </div>
-
-                                            <div class="card-body text-center">
-                                                <h5 class="card-title">Microsoft AI-900</h5>
-                                                <p class="card-text">SENAI Luís Eulalio de Bueno Vidigal Filho</p>
-                                                <p class="card-text">40 horas - Fundamentos</p>
-                                                <p class="card-text">Posso afirmar que sei criar máquinas virtuais e serviços de IA na plataforma do Microsoft Azure, o que inclui serviços de Vision, Speech, Language e Translator.</p>
-                                                <a href="doc/ai-900.jpg" target="_blank"
-                                                    class="btn btn-md btn-card botao">Certificado</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="card-container">
-                                        <div class="card">
-                                            <div class="filtro">
-                                                <img src="/images/java.png" alt="...">
-                                            </div>
-                                            <div class="card-body text-center">
-                                                <h5 class="card-title">Oracle Java Fundamentals</h5>
-                                                <p class="card-text">SENAI Luís Eulalio de Bueno Vidigal Filho</p>
-                                                <p class="card-text">80 horas - Intermediário</p>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing
-                                                    elit. In, molestiae! Commodi labore nesciunt minima earum nihil
-                                                    eveniet
-                                                    provident autem dolor ea vel quidem sed harum illum vero ad,
-                                                    deleniti
-                                                    voluptatibus?</p>
-                                                <a href="#" class="btn btn-md btn-card botao">Aguardando
-                                                    Certificado...</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="card-container">
-                                        <div class="card">
-                                            <div class="filtro">
-                                                <img src="/images/python.jpg" alt="...">
-                                            </div>
-                                            <div class="card-body text-center">
-                                                <h5 class="card-title">Fundamentos do Python 1</h5>
-                                                <p class="card-text">SENAI Luís Eulalio de Bueno Vidigal Filho</p>
-                                                <p class="card-text">30 horas - Básico</p>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing
-                                                    elit. In, molestiae! Commodi labore nesciunt minima earum nihil
-                                                    eveniet
-                                                    provident autem dolor ea vel quidem sed harum illum vero ad,
-                                                    deleniti
-                                                    voluptatibus?</p>
-                                                <a href="doc/matriculapython.jpg" target="_blank"
-                                                    class="btn btn-md btn-card botao">Cursando...</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="card-container">
-                                        <div class="card">
-                                            <div class="filtro">
-                                                <img src="/images/google.png" alt="...">
-                                            </div>
-
-                                            <div class="card-body text-center">
-                                                <h5 class="card-title">Google Cloud Foundations</h5>
-                                                <p class="card-text">SENAI Luís Eulalio de Bueno Vidigal Filho</p>
-                                                <p class="card-text">40 horas - Fundamentos</p>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing
-                                                    elit. In, molestiae! Commodi labore nesciunt minima earum nihil
-                                                    eveniet
-                                                    provident autem dolor ea vel quidem sed harum illum vero ad,
-                                                    deleniti
-                                                    voluptatibus?</p>
-                                                <a href="#" class="btn btn-md btn-card botao">Em breve</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
                                 </div>
+
+                                <div class="card-container">
+                                    <div class="card">
+                                        <div class="filtro">
+                                            <img src="/images/aws.jpg" alt="...">
+                                        </div>
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">AWS Cloud Foundations</h5>
+                                            <p class="card-text">SENAI Luís Eulalio de Bueno Vidigal Filho</p>
+                                            <p class="card-text">40 horas - Fundamentos</p>
+                                            <p class="card-text">Aprendi a gerenciar a plataforma AWS Cloud, criando e
+                                                editando novas instâncias, e gerenciando permissões de usuários nos
+                                                diversos serviços ofertados, principalmente o EC2(Servidores e
+                                                Computação) e o S3(Armazenamento).</p>
+                                            <a href="doc/aws.jpg" target="_blank"
+                                                class="btn btn-md btn-card botao">Certificado</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-container">
+                                    <div class="card">
+                                        <div class="filtro">
+                                            <img src="/images/azure.jpg" alt="...">
+                                        </div>
+
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Microsoft AI-900</h5>
+                                            <p class="card-text">SENAI Luís Eulalio de Bueno Vidigal Filho</p>
+                                            <p class="card-text">40 horas - Fundamentos</p>
+                                            <p class="card-text">Posso afirmar que sei criar máquinas virtuais e
+                                                serviços de IA na plataforma do Microsoft Azure, o que inclui serviços
+                                                de Vision, Speech, Language e Translator.</p>
+                                            <a href="doc/ai-900.jpg" target="_blank"
+                                                class="btn btn-md btn-card botao">Certificado</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-container">
+                                    <div class="card">
+                                        <div class="filtro">
+                                            <img src="/images/java.png" alt="...">
+                                        </div>
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Oracle Java Fundamentals</h5>
+                                            <p class="card-text">SENAI Luís Eulalio de Bueno Vidigal Filho</p>
+                                            <p class="card-text">80 horas - Intermediário</p>
+                                            <p class="card-text">Aulas sobre fundamentos de lógica e programação
+                                                utilizando a linguagem Java, aprendi a criar coisas como classes,
+                                                construtores, integração com bancos de dados e APIs utilizando o
+                                                framework Java Spring.</p>
+                                            <a href="doc/java.png" class="btn btn-md btn-card botao">Certificado</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-container">
+                                    <div class="card">
+                                        <div class="filtro">
+                                            <img src="/images/python.jpg" alt="...">
+                                        </div>
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Fundamentos do Python 1</h5>
+                                            <p class="card-text">SENAI Luís Eulalio de Bueno Vidigal Filho</p>
+                                            <p class="card-text">30 horas - Básico</p>
+                                            <p class="card-text">Ainda em progresso, aprendi a criar fluxogramas e estou
+                                                tendo aulas de lógica de programação com Python, realizando diversas
+                                                atividades de base lógica utilizando comandos básicos como if/elif/else
+                                                e for.</p>
+                                            <a href="doc/matriculapython.jpg" target="_blank"
+                                                class="btn btn-md btn-card botao">Cursando...</a>
+                                            <a href="https://github.com/DalgonaFox/python" target="_blank"
+                                                class="btn btn-md btn-card botao">Atividades</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-container">
+                                    <div class="card">
+                                        <div class="filtro">
+                                            <img src="/images/google.png" alt="...">
+                                        </div>
+
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Google Cloud Foundations</h5>
+                                            <p class="card-text">SENAI Luís Eulalio de Bueno Vidigal Filho</p>
+                                            <p class="card-text">40 horas - Fundamentos</p>
+                                            <p class="card-text">Ainda não iniciei, mas já estou matriculada! Estou
+                                                ansiosa para aprender sobre o tema e continuar minha evolução
+                                                profissional.</p>
+                                            <a href="#" class="btn btn-md btn-card botao">Em breve</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
                             </div>
-                            <button class="next carousel-btn"><i class="bi bi-chevron-right"></i></button>
                         </div>
+                        <button class="next carousel-btn"><i class="bi bi-chevron-right"></i></button>
                     </div>
+                </div>
                 <div id="projetos"></div>
             </div>
 
             <div class="mt-5 mb-5">
                 <h1 class="contrail-one-regular" data-aos="fade-up" data-aos-duration="1000">Projetos</h1>
 
-                    <div class="d-flex mb-5" data-aos="fade-up" data-aos-duration="1000">
+                <div class="d-flex mb-5" data-aos="fade-up" data-aos-duration="1000">
 
-                        <div class="card-carousel">
+                    <div class="card-carousel">
 
-                            <button class="prev2 carousel-btn"><i class="bi bi-chevron-left"></i></button>
+                        <button class="prev2 carousel-btn"><i class="bi bi-chevron-left"></i></button>
 
-                            <div class="card-wrapper">
-                                <div class="card-track2">
+                        <div class="card-wrapper">
+                            <div class="card-track2">
 
-                                    <div class="card-container">
-                                        <div class="card">
-                                            <div class="filtro">
-                                                <img src="/images/autoriza.png" alt="...">
-                                            </div>
-                                            <div class="card-body text-center">
-                                                <h5 class="card-title">AutorizaSaída SENAI</h5>
-                                                <p class="card-text">Projeto de Conclusão de Curso • Finalizado</p>
-                                                <p class="card-text">HTML • CSS • EJS • JavaScript • Bootstrap • MySQL •
-                                                    Node.js Express
-                                                    • Metodologia Scrum • Figma</p>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing
-                                                    elit. In,
-                                                    molestiae! Commodi labore nesciunt minima earum nihil eveniet
-                                                    provident autem dolor
-                                                    ea vel quidem sed harum illum vero ad, deleniti voluptatibus?</p>
-                                                <a href="https://github.com/DalgonaFox/AutorizaSaida" target="_blank"
-                                                    class="btn btn-md btn-card botao">Github</a>
-                                                <a href="https://www.figma.com/design/zYO7WoNPWNx2oelOx62Doz/TCC--JustificaFalta?node-id=0-1&t=84eSxltgOED1Moja-1"
-                                                    target="_blank" class="btn btn-md btn-card botao">Figma</a>
-                                                <a href="https://autoriza.onrender.com/" target="_blank" target="_blank"
-                                                    class="btn btn-md btn-card botao">Website</a>
-                                                <a href="https://autoriza.onrender.com/membros" target="_blank"
-                                                    target="_blank" class="btn btn-md btn-card botao">Equipe</a>
-                                            </div>
+                                <div class="card-container">
+                                    <div class="card">
+                                        <div class="filtro">
+                                            <img src="/images/autoriza.png" alt="...">
                                         </div>
-                                    </div>
-
-                                    <div class="card-container">
-                                        <div class="card">
-                                            <div class="filtro">
-                                                <img src="/images/sweet.png" alt="...">
-                                            </div>
-                                            <div class="card-body text-center">
-                                                <h5 class="card-title">SweetCycle</h5>
-                                                <p class="card-text">Technovation Girls 2024 Quarterfinalist • Em
-                                                    progresso</p>
-                                                <p class="card-text">React Native • Expo.dev • MySQL • Node.js • Express
-                                                    • Figma</p>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing
-                                                    elit. In,
-                                                    molestiae! Commodi labore nesciunt minima earum nihil eveniet
-                                                    provident autem dolor
-                                                    ea vel quidem sed harum illum vero ad, deleniti voluptatibus?</p>
-                                                <a href="https://youtu.be/snNToXqqpRA?si=K2uA45ECJvOQZYKA"
-                                                    target="_blank" class="btn btn-md btn-card botao">Pitch</a>
-                                                <a href="https://www.figma.com/design/M7fl8N5sRB97MNNjkDZThU/SweetCycle-Oficial?node-id=0-1&t=QoXVWtO8SXSFszhu-1"
-                                                    target="_blank" class="btn btn-md btn-card botao">Figma</a>
-                                                <a href="https://youtu.be/67VzHAKKdrw?si=e2ZNZ-wHN3pICkGh"
-                                                    target="_blank" class="btn btn-md btn-card botao">Vídeo Técnico</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="card-container">
-                                        <div class="card">
-                                            <div class="filtro">
-                                                <img src="/images/cafe.png" alt="...">
-                                            </div>
-
-                                            <div class="card-body text-center">
-                                                <h5 class="card-title">Café Sabor e Alma</h5>
-                                                <p class="card-text">Landing Page de Vendas • Em progresso</p>
-                                                <p class="card-text">HTML • CSS • JavaScript • Bootstrap • Figma</p>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing
-                                                    elit. In,
-                                                    molestiae! Commodi labore nesciunt minima earum nihil eveniet
-                                                    provident autem dolor
-                                                    ea vel quidem sed harum illum vero ad, deleniti voluptatibus?</p>
-                                                <a href="https://github.com/DalgonaFox/dalgonafox.github.io/tree/main/Websites/landingpage/cafeteria"
-                                                    target="_blank" class="btn btn-md btn-card botao">Github</a>
-                                                <a href="https://www.figma.com/design/wYO53FSGRCffKw0SLgArSx/Caf%C3%A9-Sabor-e-Alma?node-id=0-1&t=Pd6759iR81sWaOek-1"
-                                                    target="_blank" class="btn btn-md btn-card botao">Figma</a>
-                                                <a href="https://dalgonafox.github.io/Websites/landingpage/cafeteria/index.html"
-                                                    target="_blank" class="btn btn-md btn-card botao">Website</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="card-container">
-                                        <div class="card">
-                                            <div class="filtro">
-                                                <img src="/images/viaja.png" alt="...">
-                                            </div>
-                                            <div class="card-body text-center">
-                                                <h5 class="card-title">ViajaAI</h5>
-                                                <p class="card-text">Aplicação Web com API do Gemini • Finalizado</p>
-                                                <p class="card-text">React Native • Expo.dev • Gemini API • Node.js</p>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing
-                                                    elit. In,
-                                                    molestiae! Commodi labore nesciunt minima earum nihil eveniet
-                                                    provident autem dolor
-                                                    ea vel quidem sed harum illum vero ad, deleniti voluptatibus?</p>
-                                                <a href="https://github.com/DalgonaFox/ViajaAI" target="_blank"
-                                                    class="btn btn-md btn-card botao">Github</a>
-                                                <a href="https://viajaai.onrender.com/" target="_blank"
-                                                    class="btn btn-md btn-card botao">Website</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="card-container">
-                                        <div class="card">
-                                            <div class="filtro">
-                                                <img src="/images/facilita.png" alt="...">
-                                            </div>
-                                            <div class="card-body text-center">
-                                                <h5 class="card-title">Facilita Cursos</h5>
-                                                <p class="card-text">Plataforma de Cursos Online • Em progresso</p>
-                                                <p class="card-text">Figma</p>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing
-                                                    elit. In,
-                                                    molestiae! Commodi labore nesciunt minima earum nihil eveniet
-                                                    provident autem dolor
-                                                    ea vel quidem sed harum illum vero ad, deleniti voluptatibus?</p>
-                                                <a href="https://www.figma.com/design/5yTGGys1ug6JKlT0HzF6fE/facilita%2Fcentral-do-estudo?node-id=0-1&t=bpKu3HJkUHyv50hB-1"
-                                                    target="_blank" class="btn btn-md btn-card botao">Figma</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="card-container">
-                                        <div class="card">
-                                            <div class="filtro">
-                                                <img src="/images/borboletas.png" alt="...">
-                                            </div>
-
-                                            <div class="card-body text-center">
-                                                <h5 class="card-title">Lepidopterologia Wiki</h5>
-                                                <p class="card-text">Wiki sobre Borboletas • Em progresso</p>
-                                                <p class="card-text">Figma</p>
-                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing
-                                                    elit. In,
-                                                    molestiae! Commodi labore nesciunt minima earum nihil eveniet
-                                                    provident autem dolor
-                                                    ea vel quidem sed harum illum vero ad, deleniti voluptatibus?</p>
-                                                <a href="https://www.figma.com/design/ib3v4m1XH12sKKTy5HVvkl/Lepidopterologia-Wiki?node-id=0-1&t=brlpKG6QtMvdmext-1"
-                                                    target="_blank" class="btn btn-md btn-card botao">Figma</a>
-                                            </div>
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">AutorizaSaída SENAI</h5>
+                                            <p class="card-text">Projeto de Conclusão de Curso • Finalizado</p>
+                                            <p class="card-text">HTML • CSS • EJS • JavaScript • Bootstrap • MySQL •
+                                                Node.js Express
+                                                • Metodologia Scrum • Figma</p>
+                                            <p class="card-text">O AutorizaSaída SENAI é um sistema web que facilita a
+                                                solicitação e aprovação de saídas antecipadas de alunos em escolas. Ele
+                                                permite que alunos façam pedidos de saída, enviem justificativas (como
+                                                atestados médicos) e que os administradores analisem e aprovem as
+                                                requisições.</p>
+                                            <a href="https://github.com/DalgonaFox/AutorizaSaida" target="_blank"
+                                                class="btn btn-md btn-card botao">Github</a>
+                                            <a href="https://www.figma.com/design/zYO7WoNPWNx2oelOx62Doz/TCC--JustificaFalta?node-id=0-1&t=84eSxltgOED1Moja-1"
+                                                target="_blank" class="btn btn-md btn-card botao">Figma</a>
+                                            <a href="https://autoriza.onrender.com/" target="_blank" target="_blank"
+                                                class="btn btn-md btn-card botao">Website</a>
+                                            <a href="https://autoriza.onrender.com/membros" target="_blank"
+                                                target="_blank" class="btn btn-md btn-card botao">Equipe</a>
                                         </div>
                                     </div>
                                 </div>
-                                
+
+                                <div class="card-container">
+                                    <div class="card">
+                                        <div class="filtro">
+                                            <img src="/images/sweet.png" alt="...">
+                                        </div>
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">SweetCycle</h5>
+                                            <p class="card-text">Technovation Girls 2024 Quarterfinalist • Em
+                                                progresso</p>
+                                            <p class="card-text">React Native • Expo.dev • MySQL • Node.js • Express
+                                                • Figma</p>
+                                            <p class="card-text">O Sweet Cycle é uma aplicação de calendário menstrual
+                                                que oferece uma abordagem educativa cativante com jogos, textos curtos e
+                                                imagens, trazendo uma solução abrangente para orientar e capacitar
+                                                garotas durante esta fase crítica de seu desenvolvimento, transformando
+                                                os desafios em oportunidades educativas.</p>
+                                            <a href="https://youtu.be/snNToXqqpRA?si=K2uA45ECJvOQZYKA" target="_blank"
+                                                class="btn btn-md btn-card botao">Pitch</a>
+                                            <a href="https://www.figma.com/design/M7fl8N5sRB97MNNjkDZThU/SweetCycle-Oficial?node-id=0-1&t=QoXVWtO8SXSFszhu-1"
+                                                target="_blank" class="btn btn-md btn-card botao">Figma</a>
+                                            <a href="https://youtu.be/67VzHAKKdrw?si=e2ZNZ-wHN3pICkGh" target="_blank"
+                                                class="btn btn-md btn-card botao">Vídeo Técnico</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-container">
+                                    <div class="card">
+                                        <div class="filtro">
+                                            <img src="/images/cafe.png" alt="...">
+                                        </div>
+
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Café Sabor e Alma</h5>
+                                            <p class="card-text">Landing Page de Vendas • Finalizado</p>
+                                            <p class="card-text">HTML • CSS • JavaScript • Bootstrap • Figma</p>
+                                            <p class="card-text">Uma Landing Page para a cafeteria fictícia Café Sabor e
+                                                Alma. Conta com página dedicada ao cardápio, feedback de clientes,
+                                                integração com o Google Maps e botão para Whatsapp.</p>
+                                            <a href="https://github.com/DalgonaFox/dalgonafox.github.io/tree/main/Websites/landingpage/cafeteria"
+                                                target="_blank" class="btn btn-md btn-card botao">Github</a>
+                                            <a href="https://www.figma.com/design/wYO53FSGRCffKw0SLgArSx/Caf%C3%A9-Sabor-e-Alma?node-id=0-1&t=Pd6759iR81sWaOek-1"
+                                                target="_blank" class="btn btn-md btn-card botao">Figma</a>
+                                            <a href="https://dalgonafox.github.io/Websites/landingpage/cafeteria/index.html"
+                                                target="_blank" class="btn btn-md btn-card botao">Website</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-container">
+                                    <div class="card">
+                                        <div class="filtro">
+                                            <img src="/images/viaja.png" alt="...">
+                                        </div>
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">ViajaAI</h5>
+                                            <p class="card-text">Aplicação Web com API do Gemini • Finalizado</p>
+                                            <p class="card-text">React Native • Expo.dev • Gemini API • Node.js</p>
+                                            <p class="card-text">É uma aplicação web que retorna um roteiro de viagem
+                                                personalizado para o usuário com base no local de destino e a quantidade
+                                                de dias.</p>
+                                            <a href="https://github.com/DalgonaFox/ViajaAI" target="_blank"
+                                                class="btn btn-md btn-card botao">Github</a>
+                                            <a href="https://viajaai.onrender.com/" target="_blank"
+                                                class="btn btn-md btn-card botao">Website</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-container">
+                                    <div class="card">
+                                        <div class="filtro">
+                                            <img src="/images/facilita.png" alt="...">
+                                        </div>
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Facilita Cursos</h5>
+                                            <p class="card-text">Plataforma de Cursos Online • Em progresso</p>
+                                            <p class="card-text">Figma</p>
+                                            <p class="card-text">Uma plataforma de cursos online que Facilita o seu
+                                                aprendizado, seja em qualquer área que desejar. Ainda em progresso,
+                                                verifique mais tarde para mais atualizações!</p>
+                                            <a href="https://www.figma.com/design/5yTGGys1ug6JKlT0HzF6fE/facilita%2Fcentral-do-estudo?node-id=0-1&t=bpKu3HJkUHyv50hB-1"
+                                                target="_blank" class="btn btn-md btn-card botao">Figma</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-container">
+                                    <div class="card">
+                                        <div class="filtro">
+                                            <img src="/images/borboletas.png" alt="...">
+                                        </div>
+
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Lepidopterologia Wiki</h5>
+                                            <p class="card-text">Wiki sobre Borboletas • Em progresso</p>
+                                            <p class="card-text">Figma</p>
+                                            <p class="card-text">Sistema informativo sobre Borboletas e Mariposas, um
+                                                tipo de Wiki. Redesign de um projeto antigo do Ensino Médio. Ainda em
+                                                progresso, verifique mais tarde para mais atualizações!</p>
+                                            <a href="https://www.figma.com/design/ib3v4m1XH12sKKTy5HVvkl/Lepidopterologia-Wiki?node-id=0-1&t=brlpKG6QtMvdmext-1"
+                                                target="_blank" class="btn btn-md btn-card botao">Figma</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
-                            <button class="next2 carousel-btn"><i class="bi bi-chevron-right"></i></button>
                         </div>
+
+                        <button class="next2 carousel-btn"><i class="bi bi-chevron-right"></i></button>
                     </div>
-                    <div id="contato"></div>
+                </div>
+                <div id="contato"></div>
             </div>
 
-            <% if (sendMessage) { %>
-                <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="successModalLabel">Sucesso!</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                        <%= sendMessage %>
-                      </div>
-                    </div>
-                  </div>
-                </div>
 
-                <script>
-                    document.addEventListener("DOMContentLoaded", function () {
-                      var successModal = new bootstrap.Modal(document.getElementById('successModal'));
-                      successModal.show();
-                    });
-                  </script>
 
-                <% } %>
 
-                <div class="m-5">
-                    <h1 class="contrail-one-regular" data-aos="fade-up" data-aos-duration="1000">Contato</h1>
 
-                    <div class="d-flex w-100" data-aos="fade-up" data-aos-duration="1000">
+            <div class="m-5">
+                <h1 class="contrail-one-regular" data-aos="fade-up" data-aos-duration="1000">Contato</h1>
 
-                        <div class="d-flex flex-column contatodir">
-                            <h2 class="contrail-one-regular">Me envie um e-mail!</h2>
+                <div class="d-flex w-100 desce" data-aos="fade-up" data-aos-duration="1000">
 
-                            <form id="contact-form">
-                                <div class="form-group">
-                                    <label>Nome</label>
-                                    <input type="text" class="form-control" name="name"
-                                        aria-describedby="emailHelp" placeholder="Nome Completo">
-                                </div>
-                                <div class="form-group">
-                                    <label>E-mail</label>
-                                    <input type="email" class="form-control" name="email"
-                                        aria-describedby="emailHelp" placeholder="Seu e-mail">
-                                </div>
-                                <div class="form-group">
-                                    <label>Assunto</label>
-                                    <input type="text" class="form-control" name="subject"
-                                        aria-describedby="emailHelp" placeholder="Assunto">
-                                </div>
-                                <div class="form-group">
-                                    <label>Mensagem</label>
-                                    <textarea class="form-control" name="message" rows="3"
-                                        placeholder="Conteúdo da Mensagem"></textarea>
-                                </div>
-                                <div class="d-flex justify-content-end">
-                                    <button type="submit" 
-                                        class="btn btn-md btn-purple contrail-one-regular">Enviar</button>
-                                </div>
+                    <div class="d-flex flex-column contatodir">
+                        <h2 class="contrail-one-regular">Me envie um e-mail!</h2>
 
-                            </form>
-
-                        </div>
-                        <div class="d-flex m-4 text-light" style="height: 500px;">
-                            <div class="vr p-0"></div>
-                        </div>
-
-                        <div class="d-flex flex-column contatoesq">
-                            <div class="d-flex"><i class="bi bi-envelope-fill h5 mr-2"></i>
-                                <p>mila.olisantos@gmail.com</p>
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label>Nome</label>
+                                <input type="text" class="form-control" name="name" aria-describedby="emailHelp"
+                                    placeholder="Nome Completo">
                             </div>
-                            <div class="d-flex"><i class="bi bi-telephone-fill h5 mr-2"></i>
-                                <p>(11) 9 3336-2771</p>
+                            <div class="form-group">
+                                <label>E-mail</label>
+                                <input type="email" class="form-control" name="email" aria-describedby="emailHelp"
+                                    placeholder="Seu e-mail">
                             </div>
-                            <p>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-                                ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem
-                                ipsum
-                                lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-                                lorem
-                                ipsum lorem ipsum lorem ipsum lorem ipsum.</p>
+                            <div class="form-group">
+                                <label>Assunto</label>
+                                <input type="text" class="form-control" name="subject" aria-describedby="emailHelp"
+                                    placeholder="Assunto">
+                            </div>
+                            <div class="form-group">
+                                <label>Mensagem</label>
+                                <textarea class="form-control" name="message" rows="3"
+                                    placeholder="Conteúdo da Mensagem"></textarea>
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <button type="submit" class="btn btn-md btn-purple contrail-one-regular">Enviar</button>
+                            </div>
 
-                        </div>
+                        </form>
+
                     </div>
 
+                    <div class="d-flex m-4 text-light reta" id="separador">
+                    </div>
+
+                    <div class="d-flex flex-column contatoesq">
+                        <div class="d-flex"><i class="bi bi-envelope-fill h5 mr-2"></i>
+                            <p>mila.olisantos@gmail.com</p>
+                        </div>
+                        <div class="d-flex"><i class="bi bi-telephone-fill h5 mr-2"></i>
+                            <p>(11) 9 3336-2771</p>
+                        </div>
+                        <p>Entre em contato comigo caso encontre algum problema ou erro em algum projeto que eu fiz
+                            (para que eu possa consertar o mais rápido possível!), caso tenha dúvidas ou só queira
+                            conversar! Estou aberta para oportunidades de aprendizado, críticas construtivas e
+                            sugestões.</p>
+
+                    </div>
                 </div>
+
             </div>
-
         </div>
+
+    </div>
 
 
 
@@ -619,91 +629,170 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/53ff227565.js" crossorigin="anonymous"></script>
     <script>
         AOS.init();
     </script>
 
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-    const track = document.querySelector(".card-track");
-    const prevBtn = document.querySelector(".prev");
-    const nextBtn = document.querySelector(".next");
+        const width = window.innerWidth || document.documentElement.clientWidth ||
+            document.body.clientWidth;
+        const height = window.innerHeight || document.documentElement.clientHeight ||
+            document.body.clientHeight;
 
-    let index = 0;
-    const totalCards = document.querySelectorAll(".card-track .card").length;
-    const cardsPerView = 2;
-    const maxIndex = Math.ceil(totalCards / cardsPerView);
+        console.log(width, height);
 
-    function updateCarousel() {
-        const moveAmount = index * -33.33;
-        track.style.transform = `translateX(${moveAmount}%)`;
-    }
+        const separador = document.getElementById("separador")
+        if (width <= 600) {
+            separador.innerHTML = '<hr>'
+        } else {
+            separador.innerHTML = '<div class="vr"> </div>'
+        } 
 
-    nextBtn.addEventListener("click", function () {
-        if (index < maxIndex) {
-            index++;
-            updateCarousel();
-        }
-    });
+        if (width <= 900) {
+            document.addEventListener("DOMContentLoaded", function () {
+            const track = document.querySelector(".card-track");
+            const prevBtn = document.querySelector(".prev");
+            const nextBtn = document.querySelector(".next");
 
-    prevBtn.addEventListener("click", function () {
-        if (index > 0) {
-            index--;
-            updateCarousel();
-        }
-    });
-});
+            let index = 0;
+            const totalCards = document.querySelectorAll(".card-track .card").length;
+            const cardsPerView = 1;
+            const maxIndex = Math.ceil((totalCards - 1)/ cardsPerView);
 
-document.addEventListener("DOMContentLoaded", function () {
-    const track = document.querySelector(".card-track2");
-    const prevBtn = document.querySelector(".prev2");
-    const nextBtn = document.querySelector(".next2");
+            function updateCarousel() {
+                const moveAmount = index * -100;
+                track.style.transform = `translateX(${moveAmount}%)`;
+            }
 
-    let index = 0;
-    const totalCards = document.querySelectorAll(".card-track2 .card").length;
-    const cardsPerView = 2;
-    const maxIndex = Math.ceil(totalCards / cardsPerView);
+            nextBtn.addEventListener("click", function () {
+                if (index < maxIndex) {
+                    index++;
+                    updateCarousel();
+                }
+            });
 
-    function updateCarousel() {
-        const moveAmount = index * -33.33;
-        track.style.transform = `translateX(${moveAmount}%)`;
-    }
-
-    nextBtn.addEventListener("click", function () {
-        if (index < maxIndex) {
-            index++;
-            updateCarousel();
-        }
-    });
-
-    prevBtn.addEventListener("click", function () {
-        if (index > 0) {
-            index--;
-            updateCarousel();
-        }
-    });
-});
-    </script>
-
-<script>
-    document.getElementById("contact-form").addEventListener("submit", async function(event) {
-        event.preventDefault();
-        
-        const formData = new FormData(this);
-        const response = await fetch("http://localhost:3000/send-email", {
-            method: "POST",
-            body: JSON.stringify(Object.fromEntries(formData)),
-            headers: { "Content-Type": "application/json" }
+            prevBtn.addEventListener("click", function () {
+                if (index > 0) {
+                    index--;
+                    updateCarousel();
+                }
+            });
         });
 
-        const result = await response.json();
+        document.addEventListener("DOMContentLoaded", function () {
+            const track = document.querySelector(".card-track2");
+            const prevBtn = document.querySelector(".prev2");
+            const nextBtn = document.querySelector(".next2");
 
-    });
-</script>
+            let index = 0;
+            const totalCards = document.querySelectorAll(".card-track2 .card").length;
+            const cardsPerView = 1;
+            const maxIndex = Math.ceil((totalCards - 1) / cardsPerView);
+
+            function updateCarousel() {
+                const moveAmount = index * -100;
+                track.style.transform = `translateX(${moveAmount}%)`;
+            }
+
+            nextBtn.addEventListener("click", function () {
+                if (index < maxIndex) {
+                    index++;
+                    updateCarousel();
+                }
+            });
+
+            prevBtn.addEventListener("click", function () {
+                if (index > 0) {
+                    index--;
+                    updateCarousel();
+                }
+            });
+        });
+        } else {
+            document.addEventListener("DOMContentLoaded", function () {
+            const track = document.querySelector(".card-track");
+            const prevBtn = document.querySelector(".prev");
+            const nextBtn = document.querySelector(".next");
+
+            let index = 0;
+            const totalCards = document.querySelectorAll(".card-track .card").length;
+            const cardsPerView = 2;
+            const maxIndex = Math.ceil(totalCards / cardsPerView);
+
+            function updateCarousel() {
+                const moveAmount = index * -33.33;
+                track.style.transform = `translateX(${moveAmount}%)`;
+            }
+
+            nextBtn.addEventListener("click", function () {
+                if (index < maxIndex) {
+                    index++;
+                    updateCarousel();
+                }
+            });
+
+            prevBtn.addEventListener("click", function () {
+                if (index > 0) {
+                    index--;
+                    updateCarousel();
+                }
+            });
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const track = document.querySelector(".card-track2");
+            const prevBtn = document.querySelector(".prev2");
+            const nextBtn = document.querySelector(".next2");
+
+            let index = 0;
+            const totalCards = document.querySelectorAll(".card-track2 .card").length;
+            const cardsPerView = 2;
+            const maxIndex = Math.ceil(totalCards / cardsPerView);
+
+            function updateCarousel() {
+                const moveAmount = index * -33.33;
+                track.style.transform = `translateX(${moveAmount}%)`;
+            }
+
+            nextBtn.addEventListener("click", function () {
+                if (index < maxIndex) {
+                    index++;
+                    updateCarousel();
+                }
+            });
+
+            prevBtn.addEventListener("click", function () {
+                if (index > 0) {
+                    index--;
+                    updateCarousel();
+                }
+            });
+        });
+        }
+        
+    </script>
+
+    <script>
+        document.getElementById("contact-form").addEventListener("submit", async function (event) {
+            event.preventDefault();
+
+            const formData = new FormData(this);
+            const response = await fetch("/send-email", {
+                method: "POST",
+                body: JSON.stringify(Object.fromEntries(formData)),
+                headers: { "Content-Type": "application/json" }
+            });
+
+            const result = await response.json();
+
+            document.getElementById("modalTitle").innerText = result.title;
+            document.getElementById("modalMessage").innerText = result.message;
+
+            var contatoModal = new bootstrap.Modal(document.getElementById("contatoModal"));
+            contatoModal.show();
+        });
+    </script>
 
     <footer class="rodape p-4">
         <div class="text-center d-block justify-content-center" data-aos="fade-right" data-aos-duration="1000">
