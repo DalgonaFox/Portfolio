@@ -570,4 +570,25 @@ body {
         width: 35%;
         overflow: hidden;
     }
+    .contatodir h2 {
+        font-size: 20px;
+    }
+
+    .linha .card {
+        margin-right: 20px !important;
+        margin-left: 20px !important;
+    }
+}
+
+@media (max-width: 430px) {
+    .card-wrapper {
+        width: 30%;
+        overflow: hidden;
+    }
+    .conteudo {
+    
+        h1 {
+            font-size: 30px;
+        }
+    }
 }
