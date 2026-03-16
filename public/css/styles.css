@@ -84,6 +84,7 @@ body {
   background-image: linear-gradient(#000000, #08045B);
   width: 100%;
 }
+
 .conteudo h1 {
   font-size: 64px;
   color: white;
@@ -93,10 +94,10 @@ body {
   color: white;
 }
 
-.sobre {
+.experiencia {
   padding: 120px;
 }
-.sobre p {
+.experiencia p {
   line-height: 50px;
 }
 
@@ -112,22 +113,27 @@ body {
   transform: scale(1.15);
 }
 
+.title {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
 .title h1 {
-  margin-top: 200px;
+  margin-top: 228px;
   color: #fff;
-  text-align: center;
-  font-size: 128px;
+  text-align: left;
+  font-size: 100px;
 }
 .title h2 {
   margin-top: 50px;
   color: #fff;
-  text-align: center;
+  text-align: left;
   font-size: 48px;
 }
 .title h3 {
   margin-top: 50px;
   color: #fff;
-  text-align: center;
+  text-align: left;
   font-size: 32px;
 }
 
@@ -135,7 +141,7 @@ body {
   margin-top: 50px;
   margin-bottom: 50px;
   color: white;
-  text-align: center;
+  text-align: left;
   line-height: 50px;
   font-size: 18px;
 }
@@ -154,9 +160,10 @@ body {
 
 .icons {
   color: #fff;
-  width: 10%;
+  width: 20%;
   justify-content: space-between;
 }
+
 .icons a {
   color: #fff;
   text-decoration: none;
@@ -318,12 +325,21 @@ body {
   height: 500px;
 }
 
+.padding-pc {
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
 @media (max-width: 900px) {
+  .padding-pc {
+    padding-right: 0%;
+    padding-left: 0%;
+  }
   html, body {
     overflow-x: hidden;
   }
   .title h1 {
-    margin-top: 150px;
+    margin-top: 170px;
     font-size: 70px;
   }
   .title h2 {
@@ -344,7 +360,7 @@ body {
   .frase p {
     font-size: 18px;
   }
-  .sobre {
+  .experiencia {
     padding: 70px;
   }
   .conteudo h1 {
@@ -461,7 +477,7 @@ body {
   .frase p {
     font-size: 16px;
   }
-  .sobre {
+  .experiencia {
     padding: 70px;
   }
   .conteudo h1 {
@@ -497,7 +513,7 @@ body {
   .description {
     line-height: 40px;
   }
-  .sobre p {
+  .experiencia p {
     line-height: 40px;
   }
 }
