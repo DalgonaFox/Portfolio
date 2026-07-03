@@ -14,7 +14,7 @@
 Você pode acessar o projeto no ar [aqui](https://portfoliomilenaosantos.onrender.com) e o protótipo do projeto no Figma [aqui!](https://www.figma.com/design/wRUVQtMcspXbIDC3cMdrDZ/Portf%C3%B3lio?node-id=0-1&t=riCgEntHcxQSHJiw-1)
 
 ## Funcionalidades
-- Animações Suaves (AOS)
+- Animações Suaves (AOS);
 - 2 Carrosséis;
 - Formulário para contato que envia e-mails;
 - Modal pop-up de e-mail enviado;
