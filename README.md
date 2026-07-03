@@ -20,16 +20,6 @@ Você pode acessar o projeto no ar [aqui](https://portfoliomilenaosantos.onrende
 - Modal pop-up de e-mail enviado;
 - Design responsivo para tablets e dispositivos móveis.
 
-## Tecnologias
-O projeto foi desenvolvido com as seguintes tecnologias:
-- EJS;
-- CSS;
-- SCSS/Sass;
-- Javascript;
-- Node.js;
-- Express;
-- Nodemailer.
-
 ## Contato
 Caso tenha dúvidas ou sugestões, entre em contato:
 - Email: mila.olisantos@gmail.com
