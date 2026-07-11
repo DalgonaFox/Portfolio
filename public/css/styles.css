@@ -332,6 +332,8 @@ body {
 ul, li {
   color: white;
   text-align: left;
+  align-items: end;
+  justify-content: end;
 }
 
 .horizontal {
@@ -359,6 +361,12 @@ ul, li {
 
 .pc-sumir {
   display: none;
+}
+
+.conteudo-nav {
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
 }
 
 @media (max-width: 900px) {
@@ -485,6 +493,22 @@ ul, li {
   }
 }
 @media (max-width: 600px) {
+  .conteudo-nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  ul, li {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .navbar-collapse {
+    display: flex !important; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   .desce {
     flex-direction: column;
     justify-content: center;
@@ -538,8 +562,8 @@ ul, li {
     font-size: 35px;
     margin-bottom: 30px;
   }
-  .conteudo p {
-    font-size: 13px;
+  .conteudo p, li {
+    font-size: 12px;
   }
   .mb-5 {
     margin-bottom: 30px !important;
