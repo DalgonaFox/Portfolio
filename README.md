@@ -24,4 +24,3 @@ Você pode acessar o projeto no ar [aqui](https://portfoliomilenaosantos.onrende
 Caso tenha dúvidas ou sugestões, entre em contato:
 - Email: mila.olisantos@gmail.com
 - GitHub: [DalgonaFox](https://github.com/DalgonaFox)
-- LinkedIn: [Milena Oliveira Santos](https://www.linkedin.com/in/milena-oliveira-santos-432611278/).
